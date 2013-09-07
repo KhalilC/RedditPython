@@ -1,4 +1,1 @@
-RedditPython
-============
-
-various small projects for practice
+Various small projects from http://www.reddit.com/r/beginnerprojects for practice.
