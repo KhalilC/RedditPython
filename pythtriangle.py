@@ -35,12 +35,12 @@ def user_choices():
 def valid_input(side):
     while not isinstance(side, int):
         try:
-            side = int(side)
+            side = int(float(side))
             if isinstance(side, int):
                 return side
         except:
             side = raw_input('Please enter a valid integer: ')
-            continue   
+               
         
 def exit():
     print "\nThanks for playing.  Goodbye!"    
